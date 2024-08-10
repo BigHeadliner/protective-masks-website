@@ -1004,7 +1004,7 @@ body {
     font-weight: 800;
   }
   .header .header__top .menu .menu__list--active {
-    top: 83px;
+    top: 130px;
   }
   /*-- about --*/
   .about .about__item {
@@ -1142,7 +1142,18 @@ body {
     font-size: 15px;
     line-height: 28px;
   }
-}
+} 
+ 
+@media (max-width: 500px) {    
+
+  /*-- footer --*/ 
+  
+  .footer {
+    padding-top: 7px; 
+  }
+
+} 
+
 @media (max-width: 485px) {
   /*-- about --*/
   .about .about__item-factory {
